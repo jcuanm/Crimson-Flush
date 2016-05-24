@@ -1,0 +1,32 @@
+In order to properly use this android app, you need to first install 
+the Android SDK tools and the Android Studio on your personal computer. 
+You can find both of these tools from this 
+link: https://developer.android.com/sdk/index.html
+Once both tools are installed, open the Android SDK manager within the 
+android studio, and download "Android Support Repository", "Android Support
+Library", "Google Play Services", and "Google Repository" packages from the 
+"extras" folder. 
+Once finished, open "CrimsonFlush2" in Android Studio and access the code for
+the app. To run the app, connect an android device to your computer, and drag the
+apk file from the project folder into the phone's directory. Then, install the 
+app on the phone from the "Application Manager."(You should find it listed as an
+app on your device) This app also requires that your phone has Google Play Services
+installed, you can check by seeing if a "Google Play Store" app is present on your
+device.  
+With the app installed, open the app, and you should see a map centered at Harvard
+Yard. There are green location markers indicating different toilet locations within
+and around the Yard. You should be able to drag and manipulate the map as you would
+with the google maps app. The location button on the top right screen should show the 
+user location. When the markers are clicked, the app redirects to an information 
+page specific to the toilet that specifies the floor, and the accessibility of the 
+water closet.
+If you wish to run the app through an emulator instead, download Genymotion at
+this link: http://www.genymotion.com/
+Once downloaded and installed, create a new "Google Nexus 4" device with android
+version 4.3. Then go to https://goo.im/gapps/ and download the "gapps-jb-20130812-signed.zip"
+file. This is the Google Play services. Once downloaded, run the virtual device 
+and drag and place the zip file in the genymotion window. It will prompt a 
+comfirmation screen and press ok. Once successfully installed, drag the apk file into 
+the genymotion window and the app will start to run.
+
+
